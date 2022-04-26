@@ -1,0 +1,36 @@
+.content{
+  padding: 20px 40px;
+  height: 100vh;
+}
+
+.title{
+  font-size: 34px;
+  font-weight: 400;
+  padding: 40px 0;
+}
+
+.block{
+  background: #f7f8fa;
+  padding: 20px 30px;
+  margin: 20px 0;
+  border-radius: 10px;
+  .blockTitle{
+    margin: 0;
+    padding: 20px 0;
+    color: rgba(69,90,100,.6);
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 32px;
+  }
+}
+
+.formInput {
+  color: #131313;
+  padding: 20px 10px;
+  background: #fff;
+  border-radius: 10px;
+}
+
+.result{
+  padding: 20px 10px;
+}

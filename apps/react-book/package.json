@@ -1,0 +1,42 @@
+{
+  "name": "@cf/react-book",
+  "private": true,
+  "version": "1.0.0",
+  "author": "ray",
+  "scripts": {
+    "dev": "vite",
+    "build:prod": "tsc && vite build",
+    "preview": "vite preview",
+    "lint": "eslint \"src/**/*.{js,ts,jsx,tsx}\"",
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook"
+  },
+  "dependencies": {
+    "@cf/react-ui": "workspace:^1.0.0",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-router-dom": "^6.3.0",
+    "rooks": "^5.11.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.17.9",
+    "@cf/book-shared": "workspace:^1.0.0",
+    "@cf/config-eslint": "workspace:^1.1.0",
+    "@cf/config-lint-staged": "workspace:^1.0.1",
+    "@cf/config-tailwind": "workspace:^1.0.0",
+    "@storybook/addon-actions": "^6.5.0-beta.0",
+    "@storybook/addon-essentials": "^6.5.0-beta.0",
+    "@storybook/addon-interactions": "^6.5.0-beta.0",
+    "@storybook/addon-links": "^6.5.0-beta.0",
+    "@storybook/builder-vite": "^0.1.30",
+    "@storybook/react": "^6.5.0-beta.0",
+    "@storybook/testing-library": "^0.0.9",
+    "@types/react": "^17.0.33",
+    "@types/react-dom": "^17.0.16",
+    "@vitejs/plugin-react": "^1.3.1",
+    "babel-loader": "^8.2.5",
+    "consola": "^2.15.3",
+    "prop-types": "^15.8.1",
+    "vite-plugin-style-import": "^2.0.0"
+  }
+}

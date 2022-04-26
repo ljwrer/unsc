@@ -1,0 +1,24 @@
+{
+  "name": "@cf/vue-ui",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "typings": "dist/index.d.ts",
+  "private": true,
+  "scripts": {
+    "dev": "vite build --watch",
+    "build": "vite build",
+    "lint": "eslint \"src/**/*.{js,jsx,ts,tsx,vue}\""
+  },
+  "author": "ray",
+  "type": "module",
+  "devDependencies": {
+    "@cf/config-eslint": "workspace:^1.1.0",
+    "@cf/config-lint-staged": "workspace:^1.0.1",
+    "@cf/config-ts": "workspace:^1.0.1",
+    "@cf/config-vite": "workspace:^1.0.0"
+  },
+  "dependencies": {
+    "vue": "^3.2.33"
+  }
+}

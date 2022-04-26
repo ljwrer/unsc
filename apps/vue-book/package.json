@@ -1,0 +1,36 @@
+{
+  "name": "@cf/vue-book",
+  "private": true,
+  "version": "1.0.0",
+  "author": "",
+  "scripts": {
+    "dev": "vite",
+    "lint": "eslint \"src/**/*.{js,jsx,ts,tsx,vue}\"",
+    "build:prod": "vite build",
+    "preview": "vite preview",
+    "storybook": "start-storybook -p 6007",
+    "build-storybook": "build-storybook"
+  },
+  "dependencies": {
+    "@cf/vue-ui": "workspace:^1.0.0",
+    "vue": "^3.2.33",
+    "vue-router": "^4.0.14"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.17.9",
+    "@cf/book-shared": "workspace:^1.0.0",
+    "@cf/config-eslint": "workspace:^1.1.0",
+    "@cf/config-lint-staged": "workspace:^1.0.1",
+    "@cf/config-tailwind": "workspace:^1.0.0",
+    "@storybook/addon-actions": "^6.5.0-beta.0",
+    "@storybook/addon-essentials": "^6.5.0-beta.0",
+    "@storybook/addon-links": "^6.5.0-beta.0",
+    "@storybook/builder-vite": "^0.1.30",
+    "@storybook/vue3": "^6.5.0-beta.0",
+    "@vitejs/plugin-vue": "^2.3.0",
+    "babel-loader": "^8.2.5",
+    "typescript": "^4.5.4",
+    "vite": "^2.9.5",
+    "vue-loader": "^16.8.3"
+  }
+}

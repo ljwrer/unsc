@@ -1,0 +1,12 @@
+{
+  "name": "@cf/config-ts",
+  "version": "1.0.1",
+  "author": "ray",
+  "files": [
+    "base.json",
+    "nextjs.json",
+    "library.json",
+    "react-library.json",
+    "vue-library.json"
+  ]
+}

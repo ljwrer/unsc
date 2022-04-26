@@ -1,0 +1,27 @@
+.navContent{
+  margin-top: 40px;
+}
+
+.input{
+  margin: 20px 0;
+  background: #f7f8fa;
+  border-radius: 30px;
+  height: 80px;
+  padding: 0 40px;
+}
+
+.navItem{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 0 30px;
+  padding: 0 30px;
+  border-radius: 30px;
+  height: 100px;
+  color: #323233;
+  background: #eef0f4;
+  image{
+    width: 40px;
+    height: 40px;
+  }
+}

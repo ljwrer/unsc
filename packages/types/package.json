@@ -1,0 +1,9 @@
+{
+  "name": "@cf/types",
+  "version": "1.3.0",
+  "description": "shared types",
+  "main": "index.d.js",
+  "typings": "index.d.js",
+  "author": "ray",
+  "type": "module"
+}

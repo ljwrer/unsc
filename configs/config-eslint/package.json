@@ -1,0 +1,21 @@
+{
+  "name": "@cf/config-eslint",
+  "version": "1.1.0",
+  "main": "index.js",
+  "license": "MIT",
+  "author": "ray",
+  "files": [
+    "eslint-*.js"
+  ],
+  "peerDependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.20.0",
+    "@typescript-eslint/parser": "^5.18.0",
+    "@vue/eslint-config-typescript": "^10.0.0",
+    "eslint": "^8.12.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-jsx-a11y": "^6.5.1",
+    "eslint-plugin-prettier": "^4.0.0",
+    "eslint-plugin-vue": "^8.6.0",
+    "vue-eslint-parser": "^8.3.0"
+  }
+}

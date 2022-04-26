@@ -1,0 +1,7 @@
+{
+  "name": "@cf/config-lint-staged",
+  "version": "1.0.1",
+  "type": "module",
+  "author": "ray",
+  "main": "index.js"
+}

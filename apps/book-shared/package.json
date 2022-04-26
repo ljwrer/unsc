@@ -1,0 +1,12 @@
+{
+  "name": "@cf/book-shared",
+  "version": "1.0.0",
+  "author": "ray",
+  "dependencies": {
+    "@cf/config-tailwind": "workspace:^1.0.0",
+    "daisyui": "^2.14.2"
+  },
+  "devDependencies": {
+    "@cf/config-lint-staged": "workspace:^1.0.0"
+  }
+}

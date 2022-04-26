@@ -1,0 +1,26 @@
+{
+  "name": "@cf/scroll-store",
+  "version": "1.0.0",
+  "description": "scroll load store",
+  "main": "dist/index.js",
+  "typings": "dist/index.d.ts",
+  "scripts": {
+    "dev": "vite build --watch",
+    "build": "vite build",
+    "lint": "eslint \"src/**/*.{js,ts}\""
+  },
+  "author": "ray",
+  "type": "module",
+  "devDependencies": {
+    "@cf/config-eslint": "workspace:^1.0.0",
+    "@cf/config-lint-staged": "workspace:^1.0.0",
+    "@cf/config-ts": "workspace:^1.0.1",
+    "@cf/config-vite": "workspace:^1.0.0",
+    "@cf/types": "workspace:^1.0.0",
+    "@types/lodash-es": "^4.17.6"
+  },
+  "dependencies": {
+    "lodash-es": "^4.17.21",
+    "mobx": "^6.5.0"
+  }
+}

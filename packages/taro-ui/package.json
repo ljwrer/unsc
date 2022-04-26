@@ -1,0 +1,30 @@
+{
+  "name": "@cf/taro-ui",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "license": "MIT",
+  "author": "ray",
+  "private": true,
+  "devDependencies": {
+    "@cf/config-eslint": "workspace:^1.1.0",
+    "@cf/config-lint-staged": "workspace:^1.0.1",
+    "@cf/config-ts": "workspace:^1.0.1",
+    "@cf/config-vite": "workspace:^1.0.0",
+    "@tarojs/components": "3.4.4",
+    "@tarojs/taro": "3.4.6",
+    "@types/react": "^17.0.37",
+    "@types/react-dom": "^17.0.16"
+  },
+  "scripts": {
+    "dev": "vite build --watch",
+    "build": "vite build",
+    "lint": "eslint \"src/**/*.{js,ts,jsx,tsx}\""
+  },
+  "type": "module",
+  "peerDependencies": {
+    "@tarojs/components": "3.4.4",
+    "@tarojs/taro": "3.4.4",
+    "react": "17"
+  }
+}

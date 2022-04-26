@@ -1,0 +1,52 @@
+{
+	"name": "@cf/taro-book",
+	"version": "1.0.0",
+	"private": true,
+	"author": "ray",
+	"description": "",
+	"templateInfo": {
+		"name": "mobx",
+		"typescript": true,
+		"css": "sass"
+	},
+	"scripts": {
+		"build:weapp": "taro build --type weapp",
+		"build:h5": "taro build --type h5",
+		"dev:weapp": "pnpm run build:weapp -- --watch",
+		"dev:h5": "pnpm run build:h5 -- --watch"
+	},
+	"browserslist": [
+		"last 3 versions",
+		"Android >= 4.1",
+		"ios >= 8"
+	],
+	"license": "MIT",
+	"dependencies": {
+		"@babel/runtime": "^7.7.7",
+		"@cf/taro-form-hook": "workspace:^1.0.0",
+		"@cf/taro-io": "workspace:^1.0.0",
+		"@cf/taro-router": "workspace:^1.0.1",
+		"@cf/taro-ui": "workspace:^1.0.0",
+		"@tarojs/components": "3.4.6",
+		"@tarojs/plugin-framework-react": "3.4.6",
+		"@tarojs/react": "3.4.6",
+		"@tarojs/runtime": "3.4.6",
+		"@tarojs/taro": "3.4.6",
+		"dayjs": "^1.11.1",
+		"mobx": "^6.5.0",
+		"mobx-react-lite": "^3.3.0",
+		"react": "^17.0.2",
+		"react-dom": "^17.0.2"
+	},
+	"devDependencies": {
+		"@babel/core": "^7.8.0",
+		"@cf/config-eslint": "workspace:^1.1.0",
+		"@cf/config-lint-staged": "workspace:^1.0.1",
+		"@tarojs/mini-runner": "3.4.6",
+		"@tarojs/webpack-runner": "3.4.6",
+		"@types/react": "^17.0.2",
+		"@types/webpack-env": "^1.16.4",
+		"babel-preset-taro": "3.4.6",
+		"typescript": "^4.6.3"
+	}
+}

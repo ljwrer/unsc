@@ -1,0 +1,3 @@
+{
+  "extends": "@cf/config-ts/vue-library.json"
+}

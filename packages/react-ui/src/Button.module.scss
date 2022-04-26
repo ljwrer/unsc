@@ -1,0 +1,17 @@
+$color: #00f0f0;
+$fontColor: #898989;
+@mixin clearfix {
+  padding-left: 16px;
+  &::after {
+    content: "";
+  }
+}
+
+.button {
+  background: $color;
+
+  .text {
+    color: $fontColor;
+    @include clearfix;
+  }
+}

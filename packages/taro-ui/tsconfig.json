@@ -1,0 +1,3 @@
+{
+  "extends": "@cf/config-ts/react-library.json"
+}

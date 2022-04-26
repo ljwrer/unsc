@@ -1,0 +1,23 @@
+{
+  "name": "@cf/timer",
+  "version": "1.0.0",
+  "description": "static time constant",
+  "main": "dist/index.js",
+  "typings": "dist/index.d.ts",
+  "scripts": {
+    "dev": "vite build --watch",
+    "test": "vitest run",
+    "build": "vite build",
+    "lint": "eslint \"src/**/*.{js,ts}\""
+  },
+  "author": "ray",
+  "type": "module",
+  "devDependencies": {
+    "@cf/config-eslint": "workspace:^1.0.0",
+    "@cf/config-lint-staged": "workspace:^1.0.0",
+    "@cf/config-ts": "workspace:^1.0.1",
+    "@cf/config-vite": "workspace:^1.0.0",
+    "@cf/types": "workspace:^1.0.0",
+    "vitest": "^0.9.4"
+  }
+}

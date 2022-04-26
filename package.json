@@ -1,0 +1,58 @@
+{
+  "name": "@cf/unsc",
+  "version": "1.0.0",
+  "private": true,
+  "workspaces": [
+    "apps/*",
+    "packages/*",
+    "configs/*",
+    "taro-packages/*"
+  ],
+  "scripts": {
+    "build": "turbo run build",
+    "dev": "turbo run dev --parallel",
+    "lint": "turbo run lint --parallel",
+    "format": "prettier --write \"**/*.{ts,tsx,js,jsx,vue}\" --ignore-path .gitignore",
+    "test": "turbo run test",
+    "prepare": "husky install",
+    "changeset": "changeset",
+    "version-packages": "changeset version",
+    "release:only": "changeset publish",
+    "release": "pnpm build && pnpm release:only"
+  },
+  "devDependencies": {
+    "@cf/config-eslint": "workspace:^1.1.0",
+    "@cf/config-lint-staged": "workspace:^1.0.0",
+    "@cf/config-prettier": "workspace:^1.0.0",
+    "@changesets/cli": "^2.22.0",
+    "@typescript-eslint/eslint-plugin": "^5.21.0",
+    "@typescript-eslint/parser": "^5.21.0",
+    "@vue/eslint-config-typescript": "^10.0.0",
+    "eslint": "^8.14.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-jsx-a11y": "^6.5.1",
+    "eslint-plugin-prettier": "^4.0.0",
+    "eslint-plugin-vue": "^8.7.1",
+    "husky": "^7.0.4",
+    "lint-staged": "^12.4.0",
+    "prettier": "^2.6.2",
+    "sass": "^1.51.0",
+    "turbo": "^1.2.5",
+    "typescript": "^4.6.3",
+    "vite": "^2.9.5",
+    "vitest": "^0.9.4",
+    "vue-eslint-parser": "^8.3.0"
+  },
+  "engines": {
+    "npm": ">=7.0.0",
+    "node": ">=14.0.0"
+  },
+  "packageManager": "pnpm@6.32.6",
+  "type": "module",
+  "pnpm": {
+    "overrides": {
+      "react": "^17.0.2",
+      "react-dom": "^17.0.2"
+    }
+  }
+}
